@@ -30,7 +30,7 @@ end
 
  # Printer
  
- def printer(speakers)
+ def printer(names)
   badge_messages = batch_badge_creator(names)
   badge_messages.each do |message|
     puts message
