@@ -28,5 +28,6 @@ def assign_rooms(names)
   room_message
 end
 
+ # Printer
  
-# Printer
+ 
