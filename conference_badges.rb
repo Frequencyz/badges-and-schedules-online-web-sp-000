@@ -1,1 +1,24 @@
-# Write your code here.
+
+# Badge Maker
+
+def badge_maker(name)
+ return "Hello, my name is #{name}."
+end
+
+# Batch Badge Creator
+
+def batch_badge_creator(names)
+  badge_messages = []
+  names.each do |name|
+    message = badge_maker(name)
+    badge_messages << message
+  end
+  badge_messages
+end
+
+# Assign Room
+
+
+
+ 
+# Printer
