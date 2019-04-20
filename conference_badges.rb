@@ -18,15 +18,7 @@ end
 
 # Assign Room
 
-def assign_rooms(names)
-  room_number = 1
-  room_messages = []
-  speakers.each do |name|
-    room_messages << "Hello, #{name}! You'll be assigned to room #{room_number}!"
-    room_number += 1
-  end
-  room_messages
-end
+
 
  
 # Printer
